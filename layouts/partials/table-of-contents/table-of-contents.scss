@@ -19,7 +19,6 @@ $highlightcolor: rgba(120,71,166,.15);
 }
 
 .toc-container {
-  padding-top:110px;
   &.mobile-open {
     position:fixed;
     max-width: 266px;
@@ -33,10 +32,8 @@ $highlightcolor: rgba(120,71,166,.15);
 
 
 .toc {
-  top:100px;
-  padding-bottom:50px;
-  overflow-x:hidden;
-  overflow-y:auto;
+  padding-left:39px;
+  padding-bottom:15px;
   z-index:1;
   h5 {
     font-size:18px;
